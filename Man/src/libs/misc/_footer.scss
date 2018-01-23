@@ -1,0 +1,130 @@
+.footer{
+    width: 100%;
+    background:url('../img/Rotona-assets/footerBG.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+.footer-container{
+    @include container; 
+    width: 878px;
+    margin-top: 0;
+    display: flex;    
+    flex-direction: column;
+    }
+.footer__up{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__up__title{
+    margin-top: 270px;
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+font-size: 1.125rem;
+line-height: 2.25rem;
+}
+
+.footer__up__text{
+    width: 355px;
+    padding-top: 30px;
+    color: #444444;
+font-family: "Open Sans";
+font-size: 0.75rem;
+font-weight: 600;
+line-height: 20px;
+}
+
+.nav__all{
+color: #444444;
+font-family: "Open Sans";
+font-size: 0.75rem;
+font-weight: 600;
+.all__span{    
+    color: #222222;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px;
+    font-weight: 600;
+}
+}
+
+.footer-nav{
+    padding: 60px 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__up__right{
+    padding-top: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}
+
+.enter__email{
+    display: flex;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #999999;
+}
+
+.type{
+    background: transparent;
+    border: none;
+    color: #444444;
+    font-family: "Open Sans";
+    font-size: 0.75rem;
+    font-weight: 400;
+    width: 200px;
+}
+.mailbtn{
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 400;
+    padding: 12px 17px;
+    background: #913bbe;
+    border: none;
+}
+.social__list{
+    display: flex;
+    list-style: none;
+}
+
+
+.footer-nav__list{
+    display: flex;
+    list-style: none;   
+  
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    line-height: 48px;    
+    .footer-nav__item{
+        padding-left: 27px;
+        .footer-nav__link{
+        color: #222222;
+          text-decoration: none; 
+          &:hover{
+              color:#913bbe;
+          }
+        }
+    }
+}
+.fa{
+    margin-left: 13px;
+    font-size: 22px;
+}
+.fa-facebook{
+color:#3b5998;
+}
+.fa-twitter{
+color:#0077b5;
+}
+.fa-google-plus{
+color: #dd4b39;
+}
+.fa-linkedin{
+color: #1da1f2;
+}
+
+

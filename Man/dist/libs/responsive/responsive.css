@@ -1,0 +1,29 @@
+@media screen and (max-width: 1220px) {
+	.container{
+        width: 780px;
+        margin: 23px auto 0;    
+    }
+    .column-wrap{
+        width: 780px;
+    }
+   
+    
+}
+@media screen and (max-width: 1102px) {
+	.container{
+        width: 705px;
+        margin: 23px auto 0;    
+    }
+}
+@media screen and (max-width: 788px) {
+	.container{
+        width: 504px;
+        margin: 23px auto 0;    
+    }
+}
+@media screen and (max-width: 596px) {
+	.container{
+        width: 381px;
+        margin: 23px auto 0;    
+    }
+}

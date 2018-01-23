@@ -1,0 +1,41 @@
+.facts{
+    width: 100%;
+    background: #913bbe;
+}
+
+.facts-container{
+    @include container;
+    width: 878px;
+    margin-top: 0;
+    display: flex; 
+    justify-content: space-between; 
+   }
+
+.bl{
+    padding: 60px 0;
+    display: flex;
+    justify-content: flex-start;
+    width: 23%;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    align-items: center;
+    }
+
+.number{
+    margin-right: 17px;
+    font-size: 2.81rem;
+    font-weight: 600;
+    opacity: 0;
+    }
+    .viz{
+        opacity: 1;
+        transition: 2s;
+    }
+
+.text{
+    font-weight: 300;
+.text__2{
+   font-size: 1rem;
+}
+}
