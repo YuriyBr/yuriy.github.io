@@ -1,0 +1,35 @@
+.header{
+    width: 100%;  
+    padding: 40px 0;
+}
+
+.header-container{
+    @include container;
+    margin: 0 auto;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list{
+    display: flex;
+
+}
+
+.nav__item:first-child{
+    margin-right: 40px;
+}
+
+.nav__item:nth-child(2){
+    margin-right: 30px;
+}
+
+.nav__link{
+    font-family: $nav_link_font;
+    font-size: $nav_link_size;
+    color:$nav_link_color;
+    font-weight: 400;
+    &:hover{
+        color:red
+    }
+}
