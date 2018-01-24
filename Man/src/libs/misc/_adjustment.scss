@@ -5,9 +5,11 @@
 }
 body{
 	width: 100%;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
-    font-size: 16px; 	
+	font-size: 16px; 	
+	background: #eeeeee;
 }
 ul{
 	list-style: none;
@@ -19,7 +21,6 @@ a{
 .maincontent{
 	width: 100%;
 	flex-grow: 1;
-	background: #eeeeee;
-	height: 100vh;
+	
 }
 
