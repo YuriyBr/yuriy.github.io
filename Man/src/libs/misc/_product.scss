@@ -1,0 +1,102 @@
+.product{
+    @include container;
+    background: #fff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.product__text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110px;
+    width: 570px;
+    text-align: center;
+}
+.product__title{
+  font-family: $title_main_font;
+  font-size: 3rem;
+  font-weight: 900;
+  color: #303030;
+}
+.underline{
+    margin-top: 15px;
+}
+
+.product__info{
+    margin-top: 10px;
+    font-family: $title_main_font;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+.first__row{
+    width: 1056px;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.second__row{
+    width: 1056px;
+    margin-top: 30px;
+    margin-bottom: 68px;
+    display: flex;
+    justify-content: space-between;
+}
+.img__din{
+    width: 65%;
+    height: 387px;
+   }
+.img__headphone{
+    width: 31%;
+    height: 387px;
+}
+.img__shoes{
+    width: 31%;
+    height: 387px;
+}
+.img__chear{
+    width: 31%;
+    height: 387px;
+}
+.first__photo{
+    width: 31%;
+    height: 387px;
+    position: relative;
+    
+}
+.first__photo:after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #e10011;
+}
+.first__photo:hover:after{
+    background: transparent;
+}
+.watch__text{
+    position: absolute;
+    left: 35px;
+    top: 260px;
+    font-family:'Roboto', sans-serif ;
+    font-size: 1.875rem;
+    color:#fff; 
+    z-index: 99;
+}
+.line{
+    position: absolute;
+    top: 339px;
+    left: 35px;
+    width: 93px;
+    height: 0;
+    border: 2px solid #FFF;
+    z-index: 99;
+}
+
