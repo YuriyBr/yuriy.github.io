@@ -1,0 +1,19 @@
+.slider{
+    margin-top: 60px;
+}
+
+.slider1, .slider2, .slider3{
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.slider1__content, .slider2__content, .slider3__content{
+    width: 51%;
+    text-align: right;
+}
+
+.slider1__photo, .slider2__photo, .slider3__photo{
+    width: 49%;
+} 
