@@ -1,0 +1,28 @@
+.footer{
+    width: 100%;
+    padding: 16px 0;
+    background: #000;
+}
+
+.footer-container{
+    @include container;
+    display: flex;    
+    justify-content: space-between;
+    align-items: center;
+    h2{
+        color: #fff;
+        font-family: 'Lato', sans-serif;
+    }
+}
+
+.secure{
+    font-size: 1.75rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: -10px;
+}
+
+.copy{
+    font-size: 1rem;
+    font-weight: 400;
+    }

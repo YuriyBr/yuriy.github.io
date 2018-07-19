@@ -1,0 +1,26 @@
+
+/*
+large screen
+============
+*/
+@media screen and ( max-width: 1920px) {
+
+}
+
+
+/*
+medium 
+============
+*/
+
+@media screen and ( max-width: 1270px) {
+    .first__section__title{
+        font-size: 30px;
+    }
+
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    
+    }
+}
