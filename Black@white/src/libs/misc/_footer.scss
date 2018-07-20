@@ -1,0 +1,110 @@
+.footer{
+    width: 100%;
+    background: #202020;
+    padding: 56px 0;
+    .container{
+        @include container;
+        margin: 0 auto;  
+        display: flex;
+        justify-content: space-between;
+        align-items: center;     
+         .footer-social__list{
+             display: inline-block;
+              .footer-social__item{
+                  display: inline-block;
+                 margin-right: 27px;
+                  .footer-social__link{
+                      font-size: 20px;
+                  }                 
+              }
+         }
+    }
+} 
+.footer-social__item:last-child{
+    margin-right: 27px;
+         }
+
+.footer-name{
+    margin-right: 100px;
+    .footer-title{
+    text-transform: uppercase;
+    font-size: 28px;
+    font-family: 'Times new Roman'serif;
+    color:#f5f5f5;
+     }
+}
+
+.footer-menu__list{
+    display: inline-block;
+    .footer-menu__item{
+        width: 270px;
+        background: rgba(0, 0, 0, 0.3);
+        border-bottom: 1px solid #000;
+         .footer-menu__link{
+            display: inline-block;
+            text-transform: uppercase; 
+            padding: 10px 100px 10px 10px;
+        }
+    }
+}
+
+.footer-menu{
+    display: inline-block;
+    .input-menu{
+    display: none;
+     }
+      .footer-menu__icon{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background: url(../img/menu-footer.svg) center no-repeat;
+        background-size: cover;
+        overflow: hidden;     
+        cursor: pointer;
+    }
+  
+}
+
+.footer-social__link i{
+    color:#a0a1a5;
+}
+
+.footer-nav{
+    width: 270px;
+    height: 116px;
+    background: #fff;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, .3);
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    will-change: transform;
+    transform: translateY(115%);
+    transition: transform .5s ease-out;
+    z-index: 99;
+}
+
+
+.input-menu:checked ~ .footer-nav{
+ transform: translateY(0%);
+}
+
+.overlay {
+ width: 100%;
+ height: 100vh;
+ position: absolute;
+ left: 0;
+ top: 0;
+ background: rgba(0, 0, 0, 0.2);
+ display: none;
+}
+.input-menu:checked .overlay {
+ display: block;
+}
+
+
+.menu-overlay{
+ width:100%;
+ height: 100%;
+ display: block;
+ cursor: pointer;
+}

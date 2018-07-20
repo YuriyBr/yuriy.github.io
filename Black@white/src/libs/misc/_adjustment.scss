@@ -24,7 +24,9 @@ body {
 	height: 100%;
 	flex-grow: 1;
 	background: #e6e2ea;
-}
+	display: flex;
+	flex-direction: column;
+	}
 
 ul, ol {
 	list-style: none;
