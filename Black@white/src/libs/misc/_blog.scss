@@ -1,0 +1,20 @@
+.blog{
+    width: 100%;
+    .blog-container{
+        @include container;
+        padding-top:65px;
+        .blog-up{
+            display: flex;
+            justify-content: space-between;
+            .blog-up__left{
+                width: 74%;
+                height: 940px;
+                background: #fff;
+            }
+            .blog-up__right{
+                width: 22%;
+                background: #fff;
+            }
+        }
+    }
+}

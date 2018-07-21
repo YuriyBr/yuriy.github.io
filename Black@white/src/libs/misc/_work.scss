@@ -1,0 +1,69 @@
+.work{
+    width: 100%;
+    .work-container{
+     @include container;
+     padding: 65px 0;
+     display: flex;
+     flex-direction: column;
+    }
+     .row-1{
+         display: flex;
+         justify-content: space-between;
+         margin-bottom: 34px;
+         .row-1__f{
+             display: inline-block;
+             width: 22.8%;
+             height: 266px;
+             }
+             .foto-1{
+                background: url(../img/foto-4.png) center no-repeat;
+                background-size: contain;
+                overflow: hidden;
+            }
+            .foto-2{
+                background: url(../img/foto-4.png) center no-repeat;
+                background-size: contain;
+                overflow: hidden;
+            }
+            .foto-3{
+                background: url(../img/foto-4.png) center no-repeat;
+                background-size: contain;
+                overflow: hidden;
+            }
+            .foto-4{
+                background: url(../img/foto-4.png) center no-repeat;
+                background-size: contain;
+                overflow: hidden;
+            }
+     }
+     .row-2{
+         display: flex;
+         justify-content: space-between;
+         .row-2__f{
+            display: inline-block;
+            width: 22.8%;
+            height: 266px;
+            // border: 5px solid #fff;
+        }
+        .foto-8{
+            background: url(../img/foto-8.png) center no-repeat;
+            background-size: contain;
+            overflow: hidden;
+        }
+        .foto-7{
+            background: url(../img/foto-6.png) center no-repeat;
+            background-size: contain;
+            overflow: hidden;
+        }
+        .foto-6{
+            background: url(../img/foto-6.png) center no-repeat;
+            background-size: contain;
+            overflow: hidden;
+        }
+        .foto-5{
+            background: url(../img/foto-5.png) center no-repeat;
+            background-size: contain;
+            overflow: hidden;
+        }
+     }
+}
