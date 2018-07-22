@@ -3,9 +3,11 @@
 large screen
 ============
 */
-@media screen and ( max-width: 1920px) {
-
-}
+/* @media screen and ( max-width: 1210px) {
+    .container{
+        width: 1054px;
+    }
+} */
 
 
 /*
@@ -13,14 +15,11 @@ medium
 ============
 */
 
-@media screen and ( max-width: 1270px) {
-    .first__section__title{
-        font-size: 30px;
-    }
-
+/* @media screen and ( max-width: 1210px) {
+    
     .container{
-        width: 960px;
+        width: 1054px;
         margin: 0 auto;
     
     }
-}
+} */
