@@ -1,8 +1,6 @@
 .hero{
     width: 100%;
     .hero-container{
-        @include container;
-        margin: 0 auto;
         background: #fff;
        display: flex;
        flex-direction: column;

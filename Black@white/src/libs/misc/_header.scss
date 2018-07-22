@@ -2,9 +2,7 @@
     width: 100%;
     background: #f7f7f7;
     padding: 56px 0;
-     .container{
-        @include container;
-        margin: 0 auto;  
+     .header-container{
         display: flex;
         justify-content: space-between;
         align-items: center;     

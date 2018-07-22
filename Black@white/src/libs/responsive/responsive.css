@@ -3,11 +3,11 @@
 large screen
 ============
 */
-/* @media screen and ( max-width: 1210px) {
+@media screen and ( max-width: 1410px) {
     .container{
         width: 1054px;
     }
-} */
+} 
 
 
 /*
@@ -15,11 +15,11 @@ medium
 ============
 */
 
-/* @media screen and ( max-width: 1210px) {
+@media screen and ( max-width: 1210px) {
     
     .container{
-        width: 1054px;
+        width: 960px;
         margin: 0 auto;
     
     }
-} */
+}

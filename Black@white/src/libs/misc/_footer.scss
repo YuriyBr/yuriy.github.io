@@ -2,9 +2,7 @@
     width: 100%;
     background: #202020;
     padding: 56px 0;
-    .container{
-        @include container;
-        margin: 0 auto;  
+    .footer-container{
         display: flex;
         justify-content: space-between;
         align-items: center;     
