@@ -7,6 +7,23 @@ large screen
     .container{
         width: 1054px;
     }
+    .work-container{
+        padding: 60px 0;
+        }
+        .row-1{
+            margin-bottom: 34px;
+        }
+         .row-1__f{
+                display: inline-block;
+                width: 22.8%;
+                height: 240px;
+          }
+          .row-2__f{
+            display: inline-block;
+            width: 22.8%;
+            height: 240px;            
+        }
+            
 } 
 
 
@@ -19,6 +36,15 @@ medium
     
     .container{
         width: 960px;
+        margin: 0 auto;
+    
+    }
+}
+
+@media screen and ( max-width: 960px) {
+    
+    .container{
+        width: 768px;
         margin: 0 auto;
     
     }
