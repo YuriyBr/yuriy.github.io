@@ -5,27 +5,21 @@ large screen
 */
 @media screen and ( max-width: 1410px) {
     .container{
-        width: 1054px;
+        width: 1054px;        
     }
     .work-container{
-        padding: 60px 0;
+        padding: 52px 0;
         }
         .row-1{
-            margin-bottom: 34px;
+            margin-bottom: 8px;
         }
-         .row-1__f{
-                display: inline-block;
-                width: 22.8%;
-                height: 240px;
-          }
-          .row-2__f{
-            display: inline-block;
-            width: 22.8%;
-            height: 240px;            
-        }
-            
+        .form-name{
+            margin-left: 10px;
+          }  
+          .form-email{
+            margin-left: 10px;
 } 
-
+}
 
 /*
 medium 

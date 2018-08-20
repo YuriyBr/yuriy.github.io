@@ -1,0 +1,44 @@
+
+/*
+Desctop
+============
+*/
+
+@media screen and (max-width: 1210px) {
+    .container {
+        width: 1054px;
+    }
+     /*.contact__form{
+   	  		padding:  20px 20px 0 20px;	 		    
+
+  } */
+   
+}
+
+
+@media screen and (max-width: 1071px) {
+    .container {
+        width: 991px;
+    }
+}
+
+/*
+Tablets 
+============
+*/
+@media screen and (max-width: 995px){
+    .container {
+        width: 768px;
+    }
+}
+
+
+
+/*
+Phones*/
+
+@media screen and (max-width: 768px){
+    .container {
+        width: 100%;
+    }
+}

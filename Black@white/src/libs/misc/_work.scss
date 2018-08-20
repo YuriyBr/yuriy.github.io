@@ -42,8 +42,7 @@
             display: inline-block;
             width: 22.8%;
             height: 266px;
-            // border: 5px solid #fff;
-        }
+            }
         .foto-8{
             background: url(../img/foto-8.png) center no-repeat;
             background-size: contain;
@@ -51,12 +50,12 @@
         }
         .foto-7{
             background: url(../img/foto-6.png) center no-repeat;
-            background-size: contain;
+            background-size: 100%;            
             overflow: hidden;
         }
         .foto-6{
             background: url(../img/foto-6.png) center no-repeat;
-            background-size: contain;
+            background-size: 100%;
             overflow: hidden;
         }
         .foto-5{

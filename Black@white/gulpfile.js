@@ -45,6 +45,7 @@ gulp.task('watch', ['browser-sync','css'], function(){
 	gulp.watch('src/libs/jquery/*.min.js', ['jQ'])
 	gulp.watch('src/libs/slider/*.min.js',['sliderJS'])
 	gulp.watch('src/libs/img/*.*',['imagemin'])
+	gulp.watch('src/libs/responsive/**/*.css' , ['css'])
 	gulp.watch('dist/*.html',['html'])
    gulp.watch('dist/*.html', browserSync.reload)
 })
